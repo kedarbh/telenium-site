@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://telenium.com/categories/</loc>
+    <loc>http://telenium.com.np/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://telenium.com/tags/</loc>
+    <loc>http://telenium.com.np/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://telenium.com/</loc>
+    <loc>http://telenium.com.np/</loc>
     <priority>0</priority>
   </url>
   
