@@ -1,0 +1,168 @@
+baseURL: http://telenium.com/
+languageCode: en-us
+title: Telenium Pvt. Ltd.
+theme: hugo-fresh
+
+params:
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Plan. Deploy. Maintain.
+    # Hero subtitle (optional)
+    subtitle: Remember us for all Engineering Solutions
+    # Button text
+    buttontext: Learn More
+    # Where the main hero button links to
+    buttonlink: "#services"
+    # Hero image (from /images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from /images/logos/clients/___.svg)
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: About
+    url: "#about"
+  - title: Services
+    url: "#services"
+  - title: Dropdown link
+    sublinks:
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Testimonials
+    url: "#testimonials"
+  - title: Contact
+    url: "#contact"
+    button: true
+  sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: logo
+    sections:
+    - title: User
+      icon: user
+      links:
+      - text: Profile
+        url: /
+      - text: Account
+        url: /
+      - text: Settings
+        url: /
+    - title: Messages
+      icon: envelope
+      links:
+      - text: Inbox
+        url: /
+      - text: Compose
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /
+  section1:
+    title: What we are capable of
+    subtitle: with great responsibility
+    tiles:
+    - title: First Line Maintenance
+      icon: speedometer
+      text: This is some explanatory text that is on two rows
+      # url: /
+      # buttonText: Get started
+    - title: Inventory Management
+      icon: eye
+      text: This is some explanatory text that is on two rows
+      # url: /
+      # buttonText: Get started
+    - title: Site Management
+      icon: map
+      text: This is some explanatory text that is on two rows
+      # url: /
+      # buttonText: Get started
+    - title: Call Center Operation
+      icon: chatbubbles
+      text: This is some explanatory text that is on two rows
+      # url: /
+      # buttonText: Get started
+  section2:
+    title: You're here because you want the best
+    subtitle: Our Services, what we do
+    features:
+    - title: Full Turnkey
+      text: Telenium is providing Turnkey Service meeting all the needs of telecom industires. We offer Project Management, Site Aquisition, RF Service, Design & Implementation of Civil and electric Work, Telecom Equipment Installation and Quality Audit of sites.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: speedometer
+    - title: Managed Services
+      text: Telenium hosts a series of managed services like 2G & 3G Optimization, Preventive Maintenance, Corrective Maintenance that includes Air Conditioner maintenance, Diesel Generator fueling and maintenance. Along with these services we also provide Optical Fiber Networking, maintenance and routine check-ups.
+      icon: options
+  section3:
+    id: about
+    title: About Us
+    subtitle: Who are we
+    image: illustrations/mockups/app-mockup.png
+    imagetitle: work illustration
+    features:
+    - title: Full Turnkey
+      text: Telenium is providing Turnkey Service meeting all the needs of telecom industires. We offer Project Management, Site Aquisition, RF Service, Design & Implementation of Civil and electric Work, Telecom Equipment Installation and Quality Audit of sites.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: speedometer
+    - title: Managed Services
+      text: Telenium hosts a series of managed services like 2G & 3G Optimization, Preventive Maintenance, Corrective Maintenance that includes Air Conditioner maintenance, Diesel Generator fueling and maintenance. Along with these services we also provide Optical Fiber Networking, maintenance and routine check-ups.
+      icon: options
+  section4:
+    id: testimonials
+    title: Our Clients love us!
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: Irma Walters
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  section5:
+    id: contact
+    title: Drop us a line or two
+    subtitle: We'd love to hear from you
+    email: kedarbhusal@yahoo.com
+  footer:
+    # Logo (from /images/logos/___)
+    logo: logo-white.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/#
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
