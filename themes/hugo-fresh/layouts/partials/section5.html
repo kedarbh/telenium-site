@@ -1,0 +1,38 @@
+{{- $section5 := .Site.Params.section5 }}
+{{- $id    := index $section5 "id" }}
+{{- $title    := index $section5 "title" }}
+{{- $subtitle := index $section5 "subtitle" }}
+{{- $email := index $section5 "email" }}
+
+<section id="{{- $id }}" class="section section-light-grey is-medium">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">{{- $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{- $subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns">
+        <div class="column is-6 is-offset-3">
+          <form action="https://formspree.io/{{- $email }}" method="POST">
+            <div class="columns is-multiline">
+              <div class="column is-6">
+                <input class="input is-medium" type="text" name="name" placeholder="Enter your name">
+              </div>
+              <div class="column is-6">
+                <input class="input is-medium" type="email" name="email" placeholder="Enter your email address">
+              </div>
+              <div class="column is-12">
+                <textarea class="textarea" name="message" rows="10" placeholder="Write someting..."></textarea>
+              </div>
+              <div class="form-footer has-text-centered mt-10">
+                <button type="submit" class="button cta is-large primary-btn raised is-clear">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
