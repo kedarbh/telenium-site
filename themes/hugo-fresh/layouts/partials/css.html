@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}">
 {{- else }}
 {{- $css := resources.Get $sass | toCSS $cssOpts | minify | fingerprint }}
-<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
+<!-- <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}" crossOrigin="anonymous"> -->
+<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}">
 {{- end }}
 <link rel="stylesheet" type="text/css" href="{{ "/css/icons.css" | absURL }}">

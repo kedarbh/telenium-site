@@ -1,7 +1,10 @@
-baseURL: http://telenium.com.np/
+baseURL: ""
 languageCode: en-us
 title: Telenium Pvt. Ltd.
 theme: hugo-fresh
+RelativeURLs: true
+# canonifyURLs: true
+
 
 params:
   font:
